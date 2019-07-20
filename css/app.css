@@ -309,7 +309,6 @@
 }
 
 .works__text {
-  padding-top: 50px;
   width: 60%;
 }
 
@@ -325,7 +324,7 @@
   font-size: 18px;
   line-height: 27px;
   color: #010e2d;
-  margin: 20px 0 50px 0;
+  margin-bottom: 20px 0 50px 0;
 }
 
 .works__text--list {
@@ -416,4 +415,87 @@
   position: absolute;
   top: 17px;
   right: 15px;
+}
+
+.financial {
+  background: #010e2d;
+  padding-left: 10.417vw;
+  padding-right: 10.417vw;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.financial__text {
+  width: 50%;
+}
+
+.financial__text > span {
+  width: 50%;
+  font-family: "Circular Std";
+  font-size: 38px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+
+.financial__text > p {
+  font-family: "Circular Std";
+  font-size: 19px;
+  line-height: 29px;
+  color: #ffffff;
+  margin: 50px 0 70px 0;
+}
+
+.financial__text > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.financial__text--play {
+  width: 210px;
+  border-left: 2px solid #6e7dbb;
+  border-right: 2px solid #6e7dbb;
+  margin-right: 40px;
+}
+
+.financial__text--play > div {
+  width: 200px;
+  margin: auto;
+}
+
+.financial__text--play > div > img {
+  width: 100%;
+}
+
+.financial__text--app {
+  width: 200px;
+}
+
+.financial__text--app > div {
+  width: 200px;
+  border: 1px solid #6e7dbb;
+  margin: auto;
+}
+
+.financial__text--app > div > img {
+  width: 100%;
+}
+
+.financial__text--app > p {
+  margin-top: 5px;
+}
+
+.financial__phone {
+  width: 50%;
+  text-align: center;
 }

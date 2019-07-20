@@ -341,7 +341,8 @@ footer img {
 
 .img-dashboard {
   height: 35rem;
-  margin: 0rem -10rem 0rem 10rem;
+  max-width: 400px;
+  /* margin: 0rem -10rem 0rem 10rem; */
   margin-top: -5rem;
 }
 
