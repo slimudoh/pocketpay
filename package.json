@@ -1,0 +1,22 @@
+{
+  "name": "pocketpay",
+  "version": "1.0.0",
+  "description": "the pocketpay website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slimudoh/pocketpay.git"
+  },
+  "keywords": [
+    "pockeypay"
+  ],
+  "author": "uwem udoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slimudoh/pocketpay/issues"
+  },
+  "homepage": "https://github.com/slimudoh/pocketpay#readme"
+}
