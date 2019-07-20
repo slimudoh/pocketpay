@@ -516,38 +516,37 @@
 
 .page__header--left{
     width: 50%;
+    text-align: left;
     border: 1px solid red;
 }
 
-.page__header--right{
-    width: 50%;
-    text-align: center;
-}
-
-.page__header--right > span {
+.page__header--left > span {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 34px;
-    text-align: center;
     color: #031D5B;
     opacity: 0.5;
 }
 
-.page__header--right > h3 {
+.page__header--left > h3 {
     font-family: "Circular Std";
     font-size: 54px;
     line-height: 61px;
-
     color: #031D5B;
 }
 
-.page__header--right > p {
+.page__header--left > p {
     font-family: "Circular Std";
     font-size: 19px;
     line-height: 29px;
-
     color: #031D5B;
 
 }
+
+.page__header--left{
+    width: 50%;
+    text-align: center;
+}
+
